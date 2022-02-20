@@ -1,0 +1,24 @@
+.qualifications-component {
+    padding: 2.5rem 7rem;
+
+    .qualifications-wrapper {
+        padding-top: 2rem;
+
+        .qualifications-title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.8rem;
+        }
+
+        .qualifications-content {
+            padding-top: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .education {
+                margin-right: 2rem;
+            }
+        }
+    }
+}

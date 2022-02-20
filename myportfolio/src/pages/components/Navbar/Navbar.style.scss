@@ -1,0 +1,18 @@
+.navbar-component {
+    .navbar-wrapper {
+        display: flex;
+        padding: 2.5rem 7rem;
+
+        .navbar-name {
+            flex: auto;
+        }
+
+        .navbar-menu {
+            display: flex;
+
+            .menu-item {
+                margin-right: 2rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.header-component{
+    padding: 1.5rem 7rem;
+
+    .header-wrapper{
+        padding-top: 4rem;
+        display: flex;
+
+        .header-icon {
+            .facebook-icon {
+                padding-bottom: 1rem;
+            }
+
+            .linkedin-icon {
+                padding-bottom: 1rem;
+            }
+
+            .instagram-icon {
+                padding-bottom: 1rem;
+            }
+
+            .github-icon {
+                padding-bottom: 1rem;
+            }
+        }
+
+        .header-content {
+            padding-top: 0;
+            margin-left: 5rem;
+
+            .content-wrapper {
+                .header-title {
+                    font-weight: bold;
+                    font-size: 1.8rem;
+                }
+        
+                .header-subtitle {
+                    font-size: 15px;
+                    font-weight: 600;
+                    padding-top: 15px;
+                }
+            }     
+        }
+
+        .header-image {
+            margin-left: 3rem;
+            width: 40%;
+
+            img {
+                width: 100%;
+                height: 72%;
+                object-fit: contain;
+            }
+        }
+    }
+}
