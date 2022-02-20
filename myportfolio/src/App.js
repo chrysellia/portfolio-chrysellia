@@ -7,6 +7,7 @@ import Qualifications from './pages/components/Qualifications/Qualifications.com
 import Services from './pages/components/Services/Services.component'
 import Portfolio from './pages/components/Portfolio/Portfolio.component'
 import Contact from './pages/components/Contact/Contact.component'
+import Footer from './pages/components/Footer/Footer.component'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Services/>
       <Portfolio/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

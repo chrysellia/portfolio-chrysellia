@@ -1,0 +1,38 @@
+.footer-component {
+    padding: 2.5rem 7rem;
+
+    .footer-wrapper {
+        padding-top: 2rem;
+
+        .footer-content {
+        padding-top: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .footer-title {
+            font-weight: bold;
+            font-size: 1.8rem; 
+            margin-right: 5rem;
+        }
+
+        .footer-menu {
+            display: flex;
+
+            .menu-item {
+                margin-right: 1rem;
+            }
+        }
+
+        .footer-icon {
+            display: flex;
+            margin-left: 5rem;
+
+            .icon-item {
+                margin-right: 1rem;
+            }
+        }
+
+        }
+    }
+}
