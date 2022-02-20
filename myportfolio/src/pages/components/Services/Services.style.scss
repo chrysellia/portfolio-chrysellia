@@ -1,0 +1,33 @@
+.services-component {
+    padding: 2.5rem 7rem;
+
+    .services-wrapper {
+        padding-top: 2rem;
+
+        .services-title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.8rem;
+        }
+
+        .services-card {
+            padding-top: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .card-wrapper {
+                margin-right: 5rem;
+                text-align: center;
+                border: 1px solid black;
+                padding: 2rem 2rem;
+
+                .card-link {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}

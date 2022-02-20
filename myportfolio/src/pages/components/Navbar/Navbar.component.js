@@ -10,7 +10,7 @@ const Navbar = () => {
                 <div className="menu-item">Accueil</div>
                 <div className="menu-item">A propos</div>
                 <div className="menu-item">Compétences</div>
-                <div className="menu-item">Activités récentes</div>
+                <div className="menu-item">Portfolio</div>
                 <div className="menu-item">Contact</div>
             </div>
         </div>

@@ -1,6 +1,8 @@
 import React from 'react'
 import './Qualifications.style.scss'
 import { MdOutlineSchool, MdWorkOutline } from 'react-icons/md'
+import Education from './Education/Education.component'
+import Work from './Work/Work.component'
 
 const Qualifications = () => {
   return (
@@ -8,8 +10,8 @@ const Qualifications = () => {
         <div className="qualifications-wrapper">
             <div className="qualifications-title">Qualifications</div>
             <div className="qualifications-content">
-                <div className="education"><MdOutlineSchool style={{marginRight:'0.5rem'}}/>Education</div>
-                <div className="work"><MdWorkOutline style={{marginRight:'0.5rem'}}/>Work</div>
+                <div className="education"><MdOutlineSchool style={{marginRight:'0.5rem'}}/>Education </div>
+                <div className="work"><MdWorkOutline style={{marginRight:'0.5rem'}}/>Work </div>
             </div>
         </div>
     </div>
