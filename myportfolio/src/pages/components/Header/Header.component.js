@@ -10,14 +10,22 @@ const Header = () => {
     <div className="header-component">
         <div className="header-wrapper">
             <div className="header-icon">
-                <div className="facebook-icon"><FaFacebookF/></div>
-                <div className="linkedin-icon"><FaLinkedinIn/></div>
-                <div className="instagram-icon"><GrInstagram/></div>
-                <div className="github-icon"><FiGithub/></div>
+                <div className="facebook-icon">
+                    <a href="https://www.facebook.com/chrysellia"><FaFacebookF/></a>
+                </div>
+                <div className="linkedin-icon">
+                    <a href="https://www.linkedin.com/in/chrysellia/"><FaLinkedinIn/></a>
+                </div>
+                <div className="instagram-icon">
+                    <a href="https://www.instagram.com/chrysellia/?hl=fr"><GrInstagram/></a>
+                </div>
+                <div className="github-icon">
+                    <a href="https://github.com/chrysellia"><FiGithub/></a>
+                </div>
             </div>
             <div className="header-content">
                 <div className="content-wrapper">
-                    <div className="header-title">Bonjour, je suis Priscillia</div>
+                    <div className="header-title">Bonjour, je suis <span style={{color:'rgb(235, 39, 72)'}}>Priscillia</span></div>
                     <div className="header-subtitle">Frontend developer, Product Owner</div>
                     <div className="header-description">
                         <p>
@@ -30,7 +38,7 @@ const Header = () => {
                 </div>
                 <div className="header-button">
                     <div className="contact-wrapper">
-                        <button className="contact-button">Contactez-moi <FiSend/></button>
+                        <button className="contact-button">Contactez-moi <FiSend style={{marginLeft: '0.5rem'}}/></button>
                     </div>
                 </div>
             </div>

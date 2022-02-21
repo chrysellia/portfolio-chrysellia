@@ -29,11 +29,17 @@
 
                 }
     
-                .download-wrapper {
+                .button-about {
                     margin-top: 3rem;
 
-                    .cv-button {
+                    .button-style {
                         margin-right: 1rem;
+                        background-color: rgb(235, 39, 72);
+                        color: white;
+                        padding: 1rem 1rem;
+                        font-size: 15px;
+                        border:none;
+                        border-radius: 0.5rem;
                     }
                 }
             }

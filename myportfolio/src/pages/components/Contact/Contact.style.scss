@@ -18,13 +18,23 @@
                 .contact-telephone {
                     padding-bottom: 1rem;
 
+                    .telephone-style {
+                        color: rgb(235, 39, 72);
+                        font-size: 20px;
+                    }
+
                     .telephone-information {
-                        margin-left: 1.5rem;
+                        margin-left: 1.5rem; 
                     }
                 }
 
                 .contact-email {
                     padding-bottom: 1rem;
+
+                    .email-style {
+                        color: rgb(235, 39, 72);
+                        font-size: 20px;
+                    }
                     
                     .email-information {
                         margin-left: 1.5rem;
@@ -33,6 +43,11 @@
 
                 .contact-location {
                     padding-bottom: 1rem;
+
+                    .location-style {
+                        color: rgb(235, 39, 72);
+                        font-size: 20px;
+                    }
                     
                     .location-information {
                         margin-left: 1.5rem;
@@ -43,21 +58,55 @@
             .contact-form {
                 margin-left: 5rem;
 
-                .name-information {
-                    display: flex;
-                    padding-bottom: 2rem;
-
-                    .name-label {
-                        margin-right: 2rem;
-                    }
+                input[type=text], select {
+                    width: 100%;
+                    padding: 12px 20px;
+                    margin: 8px 0;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                }
+                  
+                input[type=submit] {
+                    width: 100%;
+                    background-color: #4CAF50;
+                    color: white;
+                    padding: 14px 20px;
+                    margin: 8px 0;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+                  
+                input[type=submit]:hover {
+                    background-color: #45a049;
                 }
 
-                .project-information {
-                    padding-bottom: 2rem;
+                textarea {
+                    width: 100%;
+                    height: 150px;
+                    padding: 12px 20px;
+                    box-sizing: border-box;
+                    border: 2px solid #ccc;
+                    border-radius: 4px;
+                    // background-color: #f8f8f8;
+                    font-size: 16px;
+                    resize: none;
                 }
 
                 .button-contact {
-                    padding-top: 3rem;
+                    padding-top: 1.5rem;
+
+                    .button-style {
+                        background-color: rgb(235, 39, 72);
+                        color: white;
+                        padding: 1rem 1rem;
+                        font-size: 15px;
+                        border:none;
+                        border-radius: 0.5rem;
+                        cursor: pointer;
+                    }
                 }
             }
         }

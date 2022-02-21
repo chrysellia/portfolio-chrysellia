@@ -20,8 +20,8 @@ const About = () => {
                         sunt in culpa qui officia deserunt mollit anim id est laborum."
                         </p>
                     </div>
-                    <div className="donwload-wrapper">
-                        <button className="cv-button">Télécharger CV <BiDownload/></button>
+                    <div className="button-about">
+                        <button className="button-style">Télécharger CV <BiDownload style={{marginLeft: '0.5rem'}}/></button>
                     </div>
                 </div>
             </div>

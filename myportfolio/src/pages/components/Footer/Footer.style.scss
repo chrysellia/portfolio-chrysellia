@@ -1,11 +1,13 @@
 .footer-component {
     padding: 2.5rem 7rem;
+    background-color: rgb(10, 9, 9);
+    color: white;
 
     .footer-wrapper {
-        padding-top: 2rem;
+        padding-top: 0rem;
 
         .footer-content {
-        padding-top: 3rem;
+        padding-top: 2rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -14,6 +16,13 @@
             font-weight: bold;
             font-size: 1.8rem; 
             margin-right: 5rem;
+            color: rgb(235, 39, 72);
+        }
+
+        .footer-description {
+            color: rgb(73, 69, 69);
+            font-size: 15px;
+            font-weight: 600;
         }
 
         .footer-menu {
@@ -21,6 +30,11 @@
 
             .menu-item {
                 margin-right: 1rem;
+                cursor: pointer;
+
+                &:hover {
+                    color: rgb(235, 39, 72);
+                }
             }
         }
 
@@ -30,6 +44,11 @@
 
             .icon-item {
                 margin-right: 1rem;
+                cursor: pointer;
+
+                &:hover {
+                    color: rgb(235, 39, 72);
+                }
             }
         }
 

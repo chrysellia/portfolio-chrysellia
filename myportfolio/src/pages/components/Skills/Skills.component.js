@@ -22,7 +22,7 @@ const Skills = () => {
                         </div> */}
                     </div>
                     <div className="designer-skills">
-                        <div className="designer-title"><MdDesignServices style={{marginRight: '0.5rem'}}/>Designer <MdOutlineKeyboardArrowDown style={{marginLeft: '2rem'}}/></div>
+                        <div className="designer-title"><MdDesignServices style={{marginRight: '0.5rem'}}/>Designer <MdOutlineKeyboardArrowDown className="arrow-style" style={{marginLeft: '2rem'}}/></div>
                         <div className="designer-description">Plus de 4ans</div>
                         {/* <div className="designer-menu">
                             <div className="designer-item">Figma</div>

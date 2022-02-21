@@ -11,6 +11,7 @@
         }
 
         .qualifications-content {
+            margin-left: 2rem;
             padding-top: 2rem;
             display: flex;
             align-items: center;
@@ -18,6 +19,34 @@
 
             .education {
                 margin-right: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+
+                &:hover {
+                    color: rgb(235, 39, 72);
+                }
+
+                .education-icon {
+                    font-size: 25px;
+                }
+            }
+
+            .work {
+                margin-right: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+
+                &:hover {
+                    color: rgb(235, 39, 72);
+                }
+
+                .work-icon {
+                    font-size: 25px;
+                }
             }
         }
     }

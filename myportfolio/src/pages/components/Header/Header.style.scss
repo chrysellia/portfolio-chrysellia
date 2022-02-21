@@ -8,18 +8,38 @@
         .header-icon {
             .facebook-icon {
                 padding-bottom: 1rem;
+                cursor: pointer;
+
+                &:hover {
+                    color: rgb(235, 39, 72);
+                }
             }
 
             .linkedin-icon {
                 padding-bottom: 1rem;
+                cursor: pointer;
+
+                &:hover {
+                    color: rgb(235, 39, 72);
+                }
             }
 
             .instagram-icon {
                 padding-bottom: 1rem;
+                cursor: pointer;
+
+                &:hover {
+                    color: rgb(235, 39, 72);
+                }
             }
 
             .github-icon {
                 padding-bottom: 1rem;
+                cursor: pointer;
+
+                &:hover {
+                    color: rgb(235, 39, 72);
+                }
             }
         }
 
@@ -37,8 +57,30 @@
                     font-size: 15px;
                     font-weight: 600;
                     padding-top: 15px;
+                    color: rgb(75, 70, 70);
                 }
-            }     
+            }    
+            
+            .header-button {
+                .contact-wrapper {
+                    .contact-button {
+                        margin-right: 1rem;
+                        background-color: rgb(235, 39, 72);
+                        color: white;
+                        padding: 1rem 1rem;
+                        font-size: 15px;
+                        border:none;
+                        border-radius: 0.5rem;
+                        cursor: pointer;
+
+                        .icon-style {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
         }
 
         .header-image {

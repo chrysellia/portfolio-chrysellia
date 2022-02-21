@@ -1,7 +1,8 @@
 import React from 'react'
 import './Contact.style.scss'
-import { FiPhone, FiMail } from 'react-icons/fi'
-import { GrLocation } from 'react-icons/gr'
+import { BsTelephoneFill } from 'react-icons/bs'
+import { HiMail } from 'react-icons/hi'
+import { MdLocationPin } from 'react-icons/md'
 import { IoIosSend } from 'react-icons/io'
 
 const Contact = () => {
@@ -11,39 +12,36 @@ const Contact = () => {
             <div className="contact-title">Contact</div>
             <div className="contact-content">
                 <div className="contact-information">
-                    <div className="contact-telephone"><FiPhone style={{marginRight:'0.5rem'}}/>Téléphone
+                    <div className="contact-telephone"><BsTelephoneFill className="telephone-style" style={{marginRight:'0.5rem'}}/>Téléphone
                         <div className="telephone-information">+261 34 63 625 81</div>
                     </div>
 
-                    <div className="contact-email"><FiMail style={{marginRight:'0.5rem'}}/>Email
+                    <div className="contact-email"><HiMail className="email-style" style={{marginRight:'0.5rem'}}/>Email
                         <div className="email-information">priscilliachryso@gmail.com</div>
                     </div>
-
-                    <div className="contact-location"><GrLocation style={{marginRight:'0.5rem'}}/>Location
+                    <div className="contact-location"><MdLocationPin className="location-style" style={{marginRight:'0.5rem'}}/>Location
                         <div className="location-information">Ankazotokana - Ambanidia, Antananarivo-Madagascar</div>
                     </div>
                 
                 </div>
 
                 <div className="contact-form">
-                    <div className="name-information">
-                        <div className="name-label"> Nom
-                            <input type="text"/>
-                        </div>
-                        <div className=""> Email
-                            <input type="text"/>
-                        </div>
-                    </div>
+                    <form action="/action_page.php">
+                        <label for="fname">Nom</label>
+                        <input type="text" placeholder="Votre nom.."/>
+
+                        <label for="lname">Email</label>
+                        <input type="text" placeholder="Votre prénom.."/>
+
+                        <label for="country">Projet</label>
+                        <input type="text" placeholder="Votre projet.."/>
                     
-                    <div className="project-information"> Projet
-                        <input type="text"/>
-                    </div>
-                    <div className=""> Message
-                        <textarea type="text"/>
-                    </div>
+                        <label for="message">Message</label>
+                        <textarea type="text"></textarea>
+                    </form>
 
                     <div className="button-contact">
-                        <button>Envoyer <IoIosSend/></button>
+                        <button className="button-style">Envoyer <IoIosSend style={{marginLeft: '0.5rem'}}/></button>
                     </div>
                 </div>
             </div>
