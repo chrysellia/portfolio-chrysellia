@@ -40,7 +40,8 @@
                     margin-top: 3rem;
 
                     .demo-button {
-                        margin-right: 1rem;
+                        display: flex;
+                        align-items: center;
                         background-color: rgb(235, 39, 72);
                         color: white;
                         padding: 1rem 1rem;

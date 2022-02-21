@@ -24,7 +24,7 @@ const Portfolio = () => {
                         </p>
                     </div>
                     <div className="demo-wrapper">
-                        <button className="demo-button">Démo <FiArrowRight tyle={{marginLeft: '2rem'}}/></button>
+                        <button className="demo-button">Démo <FiArrowRight style={{marginLeft: '0.5rem'}}/></button>
                     </div>
                 </div>
                 <div className="arrow-icon"><MdOutlineArrowForwardIos/></div>

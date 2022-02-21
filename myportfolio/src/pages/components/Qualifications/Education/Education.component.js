@@ -1,4 +1,5 @@
 import React from 'react'
+import './Education.style.scss'
 
 const Education = () => {
   return (
@@ -11,7 +12,7 @@ const Education = () => {
             </div><br/>
 
             <div className="education-school">
-                <div className="school-description">Licence en Science Politique</div>
+                <div className="school-description">Licence en Sciences Politiques</div>
                 <div className="school-name">Institut d'Etudes Politiques à Ampandrana, Antananarivo - Madagascar</div>
                 <div className="school-date">Octobre 2015 - Février 2019</div>
             </div><br/>

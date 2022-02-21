@@ -17,6 +17,8 @@
             .contact-information {
                 .contact-telephone {
                     padding-bottom: 1rem;
+                    display: flex;
+                    align-items: center;
 
                     .telephone-style {
                         color: rgb(235, 39, 72);
@@ -30,6 +32,8 @@
 
                 .contact-email {
                     padding-bottom: 1rem;
+                    display: flex;
+                    align-items: center;
 
                     .email-style {
                         color: rgb(235, 39, 72);
@@ -43,6 +47,8 @@
 
                 .contact-location {
                     padding-bottom: 1rem;
+                    display: flex;
+                    align-items: center;
 
                     .location-style {
                         color: rgb(235, 39, 72);
@@ -99,6 +105,8 @@
                     padding-top: 1.5rem;
 
                     .button-style {
+                        display: flex;
+                        align-items: center;
                         background-color: rgb(235, 39, 72);
                         color: white;
                         padding: 1rem 1rem;
