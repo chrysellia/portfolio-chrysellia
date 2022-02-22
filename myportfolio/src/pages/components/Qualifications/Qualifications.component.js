@@ -16,7 +16,7 @@ const Qualifications = () => {
                 </div>
                 <div>
                   <div className="work"><MdWorkOutline className="work-icon" style={{marginRight:'0.5rem'}}/>Work </div>
-                  <Work/>
+                  {/* <Work/> */}
                 </div>
             </div>
         </div>

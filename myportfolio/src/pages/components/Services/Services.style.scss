@@ -1,31 +1,52 @@
-.services-component {
-    padding: 2.5rem 7rem;
+.service-component {
+    padding: 1.5rem 7rem;
 
-    .services-wrapper {
+    .service-wrapper {
         padding-top: 2rem;
 
-        .services-title {
+        .service-title {
             text-align: center;
             font-weight: bold;
-            font-size: 1.8rem;
+            font-size: 1.8rem;      
         }
 
-        .services-card {
-            padding-top: 3rem;
+        .service-card {
+            padding-top: 1.5rem;
             display: flex;
-            align-items: center;
-            justify-content: center;
 
             .card-wrapper {
-                margin-right: 5rem;
-                text-align: center;
-                border: 1px solid black;
-                padding: 2rem 2rem;
+                width: 33%; 
+                margin-right: 2.5rem;
 
-                .card-link {
+                .card-icon {
                     display: flex;
-                    align-items: center;
                     justify-content: center;
+
+                    .icon-wrapper {
+                        color: white;
+                        font-size: 1.8rem;
+                        border-radius: 50%;
+                        background-color: rgb(235, 39, 72);
+                        width: 30px;
+                        height: 30px;
+                        padding: 1rem 1rem;
+                        top: 40rem;
+                    }
+                }
+
+                .card-content {
+                    padding-top: 1.5rem;
+                    
+                    .card-title {
+                        text-align: center;
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+    
+                    .card-description {
+                        color: rgb(75, 70, 70);
+                        text-align: justify;
+                    }
                 }
             }
         }

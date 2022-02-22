@@ -26,7 +26,7 @@ const Header = () => {
             <div className="header-content">
                 <div className="content-wrapper">
                     <div className="header-title">Bonjour, je suis <span style={{color:'rgb(235, 39, 72)'}}>Priscillia</span></div>
-                    <div className="header-subtitle">Frontend developer, Product Owner</div>
+                    <div className="header-subtitle">Frontend developer</div>
                     <div className="header-description">
                         <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temport.<br/>
@@ -36,11 +36,11 @@ const Header = () => {
                         </p>
                     </div>
                 </div>
-                <div className="header-button">
+                {/* <div className="header-button">
                     <div className="contact-wrapper">
                         <button className="contact-button">Contactez-moi <FiSend style={{marginLeft: '0.5rem'}}/></button>
                     </div>
-                </div>
+                </div> */}
             </div>
             {/* <div className="header-image">
                 <img src="images/profil.jpg"/>

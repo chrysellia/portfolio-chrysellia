@@ -6,7 +6,7 @@ import Skills from './pages/components/Skills/Skills.component'
 import Qualifications from './pages/components/Qualifications/Qualifications.component'
 import Services from './pages/components/Services/Services.component'
 import Portfolio from './pages/components/Portfolio/Portfolio.component'
-import Contact from './pages/components/Contact/Contact.component'
+// import Contact from './pages/components/Contact/Contact.component'
 import Footer from './pages/components/Footer/Footer.component'
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
       <Qualifications/>
       <Services/>
       <Portfolio/>
-      <Contact/>
+      {/* <Contact/> */}
       <Footer/>
     </div>
   )
