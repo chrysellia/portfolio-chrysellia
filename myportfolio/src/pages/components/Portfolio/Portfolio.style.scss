@@ -10,46 +10,19 @@
             font-size: 1.8rem;
         }
 
-        .portfolio-content {
+        .portfolio-gallery {
             padding-top: 3rem;
             display: flex;
+            flex-wrap: wrap;
 
-            .arrow-icon {
-                top: 3rem;
-            }
+            .gallery-wrapper {
+                width: calc(33% - 2rem);
+                margin-right: 2rem;
+                margin-bottom: 2rem;
 
-            .portfolio-image {
                 img {
                     width: 100%;
-                    height: 72%;
-                    object-fit: contain;
-                }
-            }
-
-            .description-wrapper {
-                margin-left: 3rem;
-
-                .portfolio-description {
-                    .description-title {
-                        font-weight: bold;
-                        font-size: 20px;
-                    }
-                }
-    
-                .demo-wrapper {
-                    margin-top: 3rem;
-
-                    .demo-button {
-                        display: flex;
-                        align-items: center;
-                        background-color: rgb(235, 39, 72);
-                        color: white;
-                        padding: 1rem 1rem;
-                        font-size: 15px;
-                        border:none;
-                        border-radius: 0.5rem;
-                        cursor: pointer;
-                    }
+                    height: 100%;
                 }
             }
         }
