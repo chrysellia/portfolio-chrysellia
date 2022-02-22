@@ -1,19 +1,45 @@
 .education-component {
     .education-wrapper {
-        .education-school {
-            .school-description {
-                font-size: 15px;
-                font-weight: bold;
+        // height: 2rem;
+
+        .qualifications-data {
+            display: grid;
+            grid-template-columns: 1fr max-content 1fr;
+            column-gap: 1.5rem;
+
+            .qualifications {
+                .qualifications-rounder {
+                    display: inline-block;
+                    width: 13px;
+                    height: 13px;
+                    border-radius: 50%;
+                    background-color: rgb(235, 39, 72);
+                }
+
+                .qualifications-line {
+                    display: block;
+                    width: 1px;
+                    height: 100%;
+                    background-color: rgb(235, 39, 72);
+                    transform: translate(6px, -7px);
+                }
             }
 
-            .school-name {
-                color: rgb(75, 70, 70);
-                font-size: 12px;
-            }
-
-            .school-date {
-                color: rgb(75, 70, 70);
-                font-size: 12px;
+            .education-school {
+                .school-description {
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+    
+                .school-name {
+                    color: rgb(75, 70, 70);
+                    font-size: 12px;
+                }
+    
+                .school-date {
+                    color: rgb(75, 70, 70);
+                    font-size: 12px;
+                }
             }
         }
     }

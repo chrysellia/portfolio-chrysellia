@@ -12,7 +12,7 @@ const Qualifications = () => {
             <div className="qualifications-content">
                 <div>
                   <div className="education"><MdOutlineSchool className="education-icon" style={{marginRight:'0.5rem'}}/>Education </div>
-                  <Education/>
+                  {/* <Education/> */}
                 </div>
                 <div>
                   <div className="work"><MdWorkOutline className="work-icon" style={{marginRight:'0.5rem'}}/>Work </div>

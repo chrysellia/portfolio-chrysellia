@@ -1,19 +1,45 @@
 .work-component {
     .work-wrapper {
-        .work-content {
-            .work-description {
-                font-size: 15px;
-                font-weight: bold;
+        // height: 2rem;
+
+        .work-data {
+            display: grid;
+            grid-template-columns: 1fr max-content 1fr;
+            column-gap: 1.5rem;
+
+            .qualifications {
+                .qualification-rounder {
+                    display: inline-block;
+                    width: 13px;
+                    height: 13px;
+                    border-radius: 50%;
+                    background-color: rgb(235, 39, 72);
+                }
+
+                .qualification-line {
+                    display: block;
+                    width: 1px;
+                    height: 100%;
+                    background-color: rgb(235, 39, 72);
+                    transform: translate(6px, -7px);
+                }
             }
 
-            .work-name {
-                color: rgb(75, 70, 70);
-                font-size: 12px;
-            }
-
-            .work-date {
-                color: rgb(75, 70, 70);
-                font-size: 12px;
+            .work-content {
+                .work-description {
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+    
+                .work-name {
+                    color: rgb(75, 70, 70);
+                    font-size: 12px;
+                }
+    
+                .work-date {
+                    color: rgb(75, 70, 70);
+                    font-size: 12px;
+                }
             }
         }
     }

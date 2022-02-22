@@ -11,14 +11,11 @@
         }
 
         .qualifications-content {
-            margin-left: 2rem;
             padding-top: 2rem;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            justify-content: space-evenly;
 
             .education {
-                margin-right: 2rem;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -34,7 +31,7 @@
             }
 
             .work {
-                margin-right: 2rem;
+
                 display: flex;
                 align-items: center;
                 justify-content: center;
