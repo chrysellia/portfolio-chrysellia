@@ -25,13 +25,32 @@
                     .frontend-wrapper {
                         height: 2rem;
 
+                        &.show {
+                            transform: scale(1);
+                            transition: all ease-in 300ms;
+                            transform-origin: top;
+                        }
+
+                        &.hide {
+                            transform: scale(1, 0);
+                            transition: all ease-out 300ms;
+                            transform-origin: top;
+                        }
+
                         .frontend-title {
                             cursor: pointer;
+                            font-size: 1.5rem;
+
+                            &:hover {
+                                color: rgb(235, 39, 72);
+                            }
                         }
 
                         .frontend-description {
-                            margin-left: 1.5rem;
-                            font-size: 12px;
+                            margin-left: 2rem;
+                            font-size: 15px;
+                            color:rgb(75, 70, 70);
+                            font-weight: 600;
                         }
                     }
 
@@ -88,13 +107,20 @@
                         height: 2rem;
 
                         .designer-title {
+                            font-size: 1.5rem;
                             cursor: pointer;
                             display: flex;
                             align-items: center;
+
+                            &:hover {
+                                color: rgb(235, 39, 72);
+                            }
                         }
                         .designer-description {
-                            margin-left: 1.5rem;
-                            font-size: 12px;
+                            margin-left: 2rem;
+                            font-size: 15px;
+                            color:rgb(75, 70, 70);
+                            font-weight: 600;
                         }
                     }
                     
@@ -141,20 +167,27 @@
 
             .second-content{
                 display: flex;
-                margin-left: 17.5rem;
+                margin-left: 13.5rem;
 
                 .backend-skills {
                     margin-right: 2rem;
 
                     .backend-title {
+                        font-size: 1.5rem;
                         cursor: pointer;
                         display: flex;
                         align-items: center;
+
+                        &:hover {
+                            color: rgb(235, 39, 72);
+                        }
                     }
 
                     .backend-description {
-                        margin-left: 1.5rem;
-                        font-size: 12px;
+                        margin-left: 2rem;
+                        font-size: 15px;
+                        color:rgb(75, 70, 70);
+                        font-weight: 600;
                     }
 
                     .backend-data {

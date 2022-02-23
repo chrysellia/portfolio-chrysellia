@@ -8,6 +8,7 @@ import Services from './pages/components/Services/Services.component'
 import Portfolio from './pages/components/Portfolio/Portfolio.component'
 // import Contact from './pages/components/Contact/Contact.component'
 import Footer from './pages/components/Footer/Footer.component'
+import './App.style.scss'
 
 const Home = () => {
   return (
