@@ -14,14 +14,14 @@
 
         .footer-title {
             font-weight: bold;
-            font-size: 1.8rem; 
+            font-size: 2rem; 
             margin-right: 5rem;
             color: rgb(235, 39, 72);
         }
 
         .footer-description {
-            color: rgb(73, 69, 69);
-            font-size: 15px;
+            color: rgb(129, 126, 126);
+            font-size: 18px;
             font-weight: 600;
         }
 
@@ -31,10 +31,6 @@
             .menu-item {
                 margin-right: 1rem;
                 cursor: pointer;
-
-                &:hover {
-                    color: rgb(235, 39, 72);
-                }
             }
         }
 
@@ -46,8 +42,12 @@
                 margin-right: 1rem;
                 cursor: pointer;
 
-                &:hover {
-                    color: rgb(235, 39, 72);
+                .link-style {
+                    color: white;
+
+                    &:hover {
+                        color: rgb(235, 39, 72);
+                    }
                 }
             }
         }

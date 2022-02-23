@@ -8,6 +8,7 @@ const Skills = () => {
     const [frontend, setFrontend] = useState(false);
     const [designer, setDesigner] = useState(false);
     const [backend, setBackend] = useState(false);
+    
     const [show, toggleShow] = React.useState(false);
     const skillsRef = useRef(null);
 
@@ -31,7 +32,7 @@ const Skills = () => {
                 <div className="first-content">
                     <div className="frontend-skills">
                         <div className="frontend-wrapper">
-                            <div className="frontend-title active" 
+                            <div className="frontend-title" 
                                 onClick={() => setFrontend(true)}>
                                 <BiCodeCurly style={{marginRight: '0.5rem'}}/>Frontend developer 
                                 { frontend ? (
@@ -42,6 +43,7 @@ const Skills = () => {
                             </div>
                             <div className="frontend-description">Plus de 4ans</div>
                         </div>
+                        
                         {frontend ? (
                             <div className="frontend-data">
                                 <div className="skills-title">
@@ -77,7 +79,6 @@ const Skills = () => {
                                 </div>
                             </div>
                         ) : null}
-                        
                     </div>
 
                     <div className="designer-skills">

@@ -11,16 +11,16 @@ const Header = () => {
         <div className="header-wrapper">
             <div className="header-icon">
                 <div className="facebook-icon">
-                    <a href="https://www.facebook.com/chrysellia"><FaFacebookF/></a>
+                    <a className="link-style" href="https://www.facebook.com/chrysellia"><FaFacebookF/></a>
                 </div>
                 <div className="linkedin-icon">
-                    <a href="https://www.linkedin.com/in/chrysellia/"><FaLinkedinIn/></a>
+                    <a className="link-style" href="https://www.linkedin.com/in/chrysellia/"><FaLinkedinIn/></a>
                 </div>
                 <div className="instagram-icon">
-                    <a href="https://www.instagram.com/chrysellia/?hl=fr"><GrInstagram/></a>
+                    <a className="link-style" href="https://www.instagram.com/chrysellia/?hl=fr"><GrInstagram/></a>
                 </div>
                 <div className="github-icon">
-                    <a href="https://github.com/chrysellia"><FiGithub/></a>
+                    <a className="link-style" href="https://github.com/chrysellia"><FiGithub/></a>
                 </div>
             </div>
             <div className="header-content">

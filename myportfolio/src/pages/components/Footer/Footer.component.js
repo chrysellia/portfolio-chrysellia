@@ -20,10 +20,10 @@ const Footer = () => {
                 </div>
                 <div className="footer-icon">
                     <div className="icon-item">
-                        <a href="https://www.facebook.com/chrysellia"><FaFacebookF/></a>
+                        <a className="link-style" href="https://www.facebook.com/chrysellia"><FaFacebookF/></a>
                     </div>
                     <div className="icon-item">
-                        <a href="https://www.instagram.com/chrysellia/?hl=fr"><GrInstagram/></a>
+                        <a className="link-style" href="https://www.instagram.com/chrysellia/?hl=fr"><GrInstagram/></a>
                     </div>
                     <div className="icon-item"><SiSkypeforbusiness/></div>
                 </div>

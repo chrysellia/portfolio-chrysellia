@@ -53,7 +53,17 @@
                             font-weight: 600;
                         }
                     }
+                        // &.show {
+                        //     transform: scale(1);
+                        //     transition: all ease-in 300ms;
+                        //     transform-origin: top;
+                        // }
 
+                        // &.hide {
+                        //     transform: scale(1, 0);
+                        //     transition: all ease-out 300ms;
+                        //     transform-origin: top;
+                        // }
                     .frontend-data {
                         .skills-title {
                             display: flex;
