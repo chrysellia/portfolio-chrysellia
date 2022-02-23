@@ -8,9 +8,9 @@ const About = () => {
        <div className="about-wrapper">
             <div className="about-title">A propos</div>
             <div className="about-content">
-                {/* <div className="about-image">
+                <div className="about-image">
                     <img src="images/about.jpg"/>
-                </div> */}
+                </div>
                 <div className="description-wrapper">
                     <div className="about-description">
                         <p>

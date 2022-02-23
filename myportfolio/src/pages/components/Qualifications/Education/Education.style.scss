@@ -1,11 +1,21 @@
 .education-component {
     .education-wrapper {
-        // height: 2rem;
-
         .qualifications-data {
             display: grid;
             grid-template-columns: 1fr max-content 1fr;
             column-gap: 1.5rem;
+
+            // &.show {
+            //     transform: scale(1);
+            //     transition: all ease-in 300ms;
+            //     transform-origin: top;
+            // }
+    
+            // &.hide {
+            //     transform: scale(1, 0);
+            //     transition: all ease-out 300ms;
+            //     transform-origin: top;
+            // }
 
             .qualifications {
                 .qualifications-rounder {

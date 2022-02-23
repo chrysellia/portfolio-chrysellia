@@ -1,7 +1,22 @@
-import React from 'react'
+import React, {useRef, useState} from 'react'
 import './Education.style.scss'
 
 const Education = () => {
+    const educationRef = useRef(null);
+    const [show, toggleShow] = useState(false);
+
+    const handleClick = (event) => {
+        if (educationRef.current && !educationRef.current.contains(event.target)) {
+            toggleShow(false);
+        }
+    };
+
+    React.useEffect(() => {
+        document.addEventListener('click', handleClick, true);
+
+        return () => document.removeEventListener('click', handleClick, true);
+    });
+
   return (
     <div className="education-component">
         <div className="education-wrapper">

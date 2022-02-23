@@ -23,28 +23,30 @@ const Header = () => {
                     <a className="link-style" href="https://github.com/chrysellia"><FiGithub/></a>
                 </div>
             </div>
-            <div className="header-content">
-                <div className="content-wrapper">
-                    <div className="header-title">Bonjour, je suis <span style={{color:'rgb(235, 39, 72)'}}>Priscillia</span></div>
-                    <div className="header-subtitle">Frontend developer</div>
-                    <div className="header-description">
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temport.<br/>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
-                            {/* Ma passion pour le design me permet de produire des sites ergonomiques et dynamiques.<br/>
-                            Motivée à fournir des produits de qualité aux clients, la gestion de projets et des équipes sont mes p  */}
-                        </p>
+            <div className="header-block">
+                <div className="header-content">
+                    <div className="content-wrapper">
+                        <div className="header-title">Bonjour, je suis <span style={{color:'rgb(235, 39, 72)'}}>Priscillia</span></div>
+                        <div className="header-subtitle">Frontend developer</div>
+                        <div className="header-description">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temport.<br/>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+                                {/* Ma passion pour le design me permet de produire des sites ergonomiques et dynamiques.<br/>
+                                Motivée à fournir des produits de qualité aux clients, la gestion de projets et des équipes sont mes p  */}
+                            </p>
+                        </div>
                     </div>
+                    {/* <div className="header-button">
+                        <div className="contact-wrapper">
+                            <button className="contact-button">Contactez-moi <FiSend style={{marginLeft: '0.5rem'}}/></button>
+                        </div>
+                    </div> */}
                 </div>
-                {/* <div className="header-button">
-                    <div className="contact-wrapper">
-                        <button className="contact-button">Contactez-moi <FiSend style={{marginLeft: '0.5rem'}}/></button>
-                    </div>
-                </div> */}
+                <div className="header-image">
+                    <img src="images/profil.jpg"/>
+                </div>
             </div>
-            {/* <div className="header-image">
-                <img src="images/profil.jpg"/>
-            </div> */}
         </div>
     </div>
   )
